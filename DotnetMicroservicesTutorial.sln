@@ -11,19 +11,23 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Post.Cmd", "Post.Cmd", "{54
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Post.Query", "Post.Query", "{9FC182D5-2D84-4D3D-B288-E1FD30B28DFF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CQRS.Core", "CQRS-ES\CQRS.Core\CQRS.Core.csproj", "{8F497F3E-5427-4973-BEE4-C9B08F00A054}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CQRS.Core", "CQRS-ES\CQRS.Core\CQRS.Core.csproj", "{8F497F3E-5427-4973-BEE4-C9B08F00A054}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Post.Cmd.Api", "SM-POST\Post.Cmd\Post.Cmd.Api\Post.Cmd.Api.csproj", "{E346AE9B-B858-4C64-B14D-3D72844DF628}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Post.Cmd.Api", "SM-POST\Post.Cmd\Post.Cmd.Api\Post.Cmd.Api.csproj", "{E346AE9B-B858-4C64-B14D-3D72844DF628}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Post.Query.Api", "SM-POST\Post.Query\Post.Query.Api\Post.Query.Api.csproj", "{F18EC146-2506-453B-95B0-BA08E3A36CB2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Post.Query.Api", "SM-POST\Post.Query\Post.Query.Api\Post.Query.Api.csproj", "{F18EC146-2506-453B-95B0-BA08E3A36CB2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Post.Cmd.Domain", "SM-POST\Post.Cmd\Post.Cmd.Domain\Post.Cmd.Domain.csproj", "{C87D3796-A373-4D2B-9562-9FE153C692C7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Post.Cmd.Domain", "SM-POST\Post.Cmd\Post.Cmd.Domain\Post.Cmd.Domain.csproj", "{C87D3796-A373-4D2B-9562-9FE153C692C7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Post.Cmd.Infrastructure", "SM-POST\Post.Cmd\Post.Cmd.Infrastructure\Post.Cmd.Infrastructure.csproj", "{F2592C91-9FED-48E3-A3EE-6A58C4B11143}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Post.Cmd.Infrastructure", "SM-POST\Post.Cmd\Post.Cmd.Infrastructure\Post.Cmd.Infrastructure.csproj", "{F2592C91-9FED-48E3-A3EE-6A58C4B11143}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Post.Query.Domain", "SM-POST\Post.Query\Post.Query.Domain\Post.Query.Domain.csproj", "{166FFCBB-54D2-47F1-8727-CE458EEF605F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Post.Query.Domain", "SM-POST\Post.Query\Post.Query.Domain\Post.Query.Domain.csproj", "{166FFCBB-54D2-47F1-8727-CE458EEF605F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Post.Query.Infrastructure", "SM-POST\Post.Query\Post.Query.Infrastructure\Post.Query.Infrastructure.csproj", "{C85C2914-FF4C-4CFA-84B0-6AFFEF7030CD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Post.Query.Infrastructure", "SM-POST\Post.Query\Post.Query.Infrastructure\Post.Query.Infrastructure.csproj", "{C85C2914-FF4C-4CFA-84B0-6AFFEF7030CD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Post.Common", "Post.Common", "{40BC37BB-9F84-46A0-ABC8-D2AA6E1C4F80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Post.Common", "SM-POST\Post.Common\Post.Common.csproj", "{979FAFA2-6726-4873-88DF-E9C0A7C9DE26}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -59,6 +63,10 @@ Global
 		{C85C2914-FF4C-4CFA-84B0-6AFFEF7030CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C85C2914-FF4C-4CFA-84B0-6AFFEF7030CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C85C2914-FF4C-4CFA-84B0-6AFFEF7030CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{979FAFA2-6726-4873-88DF-E9C0A7C9DE26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{979FAFA2-6726-4873-88DF-E9C0A7C9DE26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{979FAFA2-6726-4873-88DF-E9C0A7C9DE26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{979FAFA2-6726-4873-88DF-E9C0A7C9DE26}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -73,6 +81,8 @@ Global
 		{F2592C91-9FED-48E3-A3EE-6A58C4B11143} = {54AE1145-3E32-4FDC-AA74-3FCE66AA8F20}
 		{166FFCBB-54D2-47F1-8727-CE458EEF605F} = {9FC182D5-2D84-4D3D-B288-E1FD30B28DFF}
 		{C85C2914-FF4C-4CFA-84B0-6AFFEF7030CD} = {9FC182D5-2D84-4D3D-B288-E1FD30B28DFF}
+		{40BC37BB-9F84-46A0-ABC8-D2AA6E1C4F80} = {C19378C1-DD7E-4F89-9CAE-02CD7AA58E98}
+		{979FAFA2-6726-4873-88DF-E9C0A7C9DE26} = {40BC37BB-9F84-46A0-ABC8-D2AA6E1C4F80}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B9F4CFA3-DBF1-4E89-A0EB-E984A719F461}
